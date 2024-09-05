@@ -1,0 +1,93 @@
+.skills-app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-heading {
+    color:lightskyblue;
+    font-size:2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+}
+
+.front-end-heading {
+    color:White;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.front-end-skills-container {
+    background-color: azure;
+    width:90vh;
+    min-height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:20px;
+    padding:20px;
+}
+
+@media screen and (min-width: 768px) {
+    .front-end-skills-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:center;
+    }
+}
+
+.card-container {
+    text-align: center;
+}
+
+.image {
+    width:100px;
+    height:80px;
+}
+
+.description {
+    font-size:1em;
+    color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+}
+
+.back-end-heading {
+    color:White;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.back-end-skills-container {
+    background-color: azure;
+    width:90vh;
+    min-height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:20px;
+    padding:20px;
+}
+
+@media screen and (min-width: 768px) {
+    .back-end-skills-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+

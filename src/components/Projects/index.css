@@ -1,0 +1,79 @@
+.project-app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+}
+
+.project-heading {
+    font-size:2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color:lightskyblue;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    
+}
+
+@media screen and (min-width: 768px) {
+    .project-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap:40px;
+        margin-top:30px;
+        width:80%;
+    }
+}
+
+.project-card-container {
+    background-color: azure;
+    width:300px;
+    min-height:300px;
+    padding: 20px;
+    border-radius:10px;
+}
+
+.project-image {
+    width:100%;
+    border-radius: 5px;
+    height:167px;
+}
+
+.name-link-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project-name {
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:darkblue
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:lightslategray;
+}
+
+.link {
+    margin-left:5px;
+    text-decoration: none;
+    color:lightslategray;
+}
+
+.project-description {
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

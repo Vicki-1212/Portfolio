@@ -1,0 +1,99 @@
+.app-container {
+    background-color: rgba(9, 9, 9, 0.97);
+    min-height:100vh;
+}
+
+@media screen and (max-width: 767px) {
+    .app-container {
+        width:100vh;
+        min-height:100vh;
+    }
+}
+
+.home-app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    min-height:80vh;
+}
+
+@media screen and (min-width: 767px) {
+    .home-app-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width:100%;
+        min-height:80vh;
+    }
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX();
+        opacity: 1;
+    }
+}
+
+.home-info-container{
+    color:White;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    animation: slideInFromTop 1s ease-in-out;
+    order:1;
+}
+
+@media screen and (min-width: 768px) {
+    .home-info-container {
+        order:0;
+    }
+}
+
+.greeting-text {
+    font-size:25px;
+}
+
+.name-text {
+    font-size:30px;
+}
+
+.name {
+    color:darksalmon;
+    font-size: 48px;
+}
+
+.course-details {
+    font-size:30px;
+}
+
+.resume-button {
+    border:none;
+    outline:none;
+    width:140px;
+    height:45px;
+    background-color:lightyellow;
+    color:black;
+    border-radius:8px;
+    font-weight:bold;
+    font-size:16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-image {
+    width:40%;
+    order:0;
+}
+
+
+@media screen and (min-width: 768px) {
+    .hone-image {
+        width:40%;
+        order:1;
+    }
+}
+
